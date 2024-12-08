@@ -29,7 +29,7 @@ console.log(ab+bc)
 // }
 
 
-function van(){
+// function van(){
 // let a = 0;
 // if(a<0){
 //     alert("no is negative");
@@ -55,11 +55,30 @@ function van(){
 // else{
 //     alert("not completed")
 // }
-a=prompt("enter the price of an item :");
-b=confirm("are you having a discount");
-if(b==true){
-    alert(a*0.9)
-}
-}
 
-van();
+
+// a=prompt("enter the price of an item :");
+// b=confirm("are you having a discount");
+// if(b==true){
+//     alert(a*0.9)
+// }
+// }
+
+// van();
+
+
+// marks
+function marks ()
+{
+    let marks =prompt("What is your exam score")
+    if(marks<33 && marks>=0){
+        alert("you are failed");
+    }
+    else if(marks >=33 && marks <= 100){
+        alert("you are passed");
+    }
+    else{
+        alert("invalid input");
+    }
+}
+marks();
