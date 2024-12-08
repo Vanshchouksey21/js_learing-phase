@@ -67,18 +67,78 @@ console.log(ab+bc)
 // van();
 
 
-// marks
-function marks ()
-{
-    let marks =prompt("What is your exam score")
-    if(marks<33 && marks>=0){
-        alert("you are failed");
-    }
-    else if(marks >=33 && marks <= 100){
-        alert("you are passed");
-    }
-    else{
-        alert("invalid input");
-    }
-}
-marks();
+// // marks
+// function marks ()
+// {
+//     let marks =prompt("What is your exam score")
+//     if(marks<33 && marks>=0){
+//         alert("you are failed");
+//     }
+//     else if(marks >=33 && marks <= 100){
+//         alert("you are passed");
+//     }
+//     else{
+//         alert("invalid input");
+//     }
+// }
+// marks();
+
+// deletion test 
+
+// function deletion (){
+//     let dlt = confirm(" Are you sure to delete ");
+//     if (dlt  == 1 ){
+//         alert(" Item is deleted ");
+//     }
+//     else {
+//         alert (" deletion cancel ");
+//     }
+// }
+// deletion();
+
+// // intergar checker
+// function interger() {
+//     let int = parseInt(prompt("Enter a number:"));
+//     if (int >= 0) {
+//         alert("The number is positive.");
+//     } else {
+//         alert("The number is negative.");
+//     }
+// }
+
+// interger();
+
+
+// // while use
+// function use_while(){
+// let a=0
+// while(a<10){
+//     a++;
+//     alert(a);
+// }
+// }
+// use_while();
+
+
+
+
+// // greater no ;
+//  function greater(){
+//     let grt
+//     do {
+//          grt = parseInt(prompt("Enter a no that is greater than 10 :"))
+//         if(grt >= 10 ){
+//             alert("No  is greater than 10 ",grt);
+//         }
+//         else 
+//         alert(" no is lesser then 10 pls re-enter it ")
+ 
+//     }while(grt < 10);
+
+//  }
+//  greater();
+
+
+
+
+
