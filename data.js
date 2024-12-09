@@ -56,12 +56,14 @@
 //     alert("not completed")
 // }
 
-
+// //    disconut
 // a=prompt("enter the price of an item :");
 // b=confirm("are you having a discount");
 // if(b==true){
 //     alert(a*0.9)
 // }
+
+
 // }
 
 // van();
