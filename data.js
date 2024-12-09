@@ -1,10 +1,10 @@
 
 'use strict '; //for ideal use....
-var a = null
-console.log(typeof(a)) 
-var ab=2;
-var bc=3;
-console.log(ab+bc)
+// var a = null
+// console.log(typeof(a)) 
+// var ab=2;
+// var bc=3;
+// console.log(ab+bc)
 
 
 //bom{
@@ -139,6 +139,37 @@ console.log(ab+bc)
 //  greater();
 
 
+// // week
+// function week() {
+//     let day = parseInt(prompt("Enter a day of the week (1 for Monday, 2 for Tuesday, etc.): "));
+//     switch (day) {
+//         case 1:
+//             alert("Monday");
+//             break;
+//         case 2:
+//             alert("Tuesday");
+//             break;
+//         case 3:
+//             alert("Wednesday");
+//             break;
+//         case 4:
+//             alert("Thursday");
+//             break;
+//         case 5:
+//             alert("Friday");
+//             break;
+//         case 6:
+//             alert("Saturday");
+//             break;
+//         case 7:
+//             alert("Sunday");
+//             break;
+//         default:
+//             alert("Invalid input. Please enter a number between 1 and 7.");
+//     }
+// }
+
+// week();
 
 
 
