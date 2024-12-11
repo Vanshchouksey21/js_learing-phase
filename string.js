@@ -30,7 +30,14 @@ let st2 ="i am fromcybromOfficial"
     //charAt
     // document.write(st2.charAt(0));
 
+
+    let val=parseInt(prompt("Enter a no :"));
+    let val1= parseInt(prompt("Enter the second no :"));
+
+    alert (`the sum of ${val} and ${val} is ${val+val1}`)
     
+
+  
       
                     
     
@@ -41,3 +48,7 @@ let st2 ="i am fromcybromOfficial"
 
 
 str ();
+
+function vansh(){
+alert("hello");
+}
