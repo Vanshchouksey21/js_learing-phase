@@ -30,10 +30,12 @@ let st2 ="i am fromcybromOfficial"
     //charAt
     // document.write(st2.charAt(0));
 
-
-
-
     
+      
+                    
+    
+    
+  
 }
 
 
