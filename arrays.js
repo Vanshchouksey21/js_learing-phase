@@ -3,6 +3,12 @@
 //push- increase the array from the last 
 //shift - delete the element from the first
 //unshift - increase the element from the first
+//splice - which insert the value in array any where
+// map /filter - returns the new array 
+// map - map performs all mathamatical operations
+// filter - its filters that 
+// for of /for each - returns the new string 
+
 // array define 
 
 let arr = [ " vansh " , "ansh" , 21 , 7];
@@ -46,7 +52,26 @@ let arr3=[ 2 ,3,1,44,33,2];
 // document.write(arr3.sort().reverse());
 
 
-//for
+//for enter the value anywhere
+// arr3.splice(2,0,24);
+// document.write(arr3);
+
+
+
+// map 
+// let ans1= arr3.map(function(num){
+//     return num*2;
+// })
+// console.log(ans1);
+
+
+
+// filter 
+
+// let ans2 = arr3.filter(function(num){
+//     return num % 2 ==0;
+// }) 
+// console.log(ans2);
 
 
 
