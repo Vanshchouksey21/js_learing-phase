@@ -75,9 +75,41 @@ let arr3=[ 2 ,3,1,44,33,2];
 
 
 
+// // for each  - it returns the string 
+
+
+// let ans3 = arr3.forEach(function(num){
+//     console.log(num*2);
+// })
+
+
+
+//for of - it also retuns the string ..........:-:----
+
+
+// for(let i of arr3){
+//     console.log(i)
+// }
+
+
+
 
 function vans(){
 //for print the array in click 
 let arr = [ 2 ,3,1,44,33,2];
 document.write(arr.slice(2,5))
-}
+}                                                                                         
+     
+
+
+                 
+               
+                
+   
+ 
+
+
+              
+                                           
+                                    
+                                    
