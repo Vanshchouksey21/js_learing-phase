@@ -5,10 +5,11 @@
 //unshift - increase the element from the first
 //splice - which insert the value in array any where
 // map /filter - returns the new array 
-// map - map performs all mathamatical operations
+// map - map performs all mathamatical operations,it is a hire order fn...
 // filter - its filters that 
 // for of /for each - returns the new string 
-
+// callback - it is a fn which passes in a hire order fn 
+// nan-not a number ;                            
 // array define 
 
 let arr = [ " vansh " , "ansh" , 21 , 7];
@@ -94,20 +95,46 @@ let arr3=[ 2 ,3,1,44,33,2];
 
 
 
-function vans(){
-//for print the array in click 
-let arr = [ 2 ,3,1,44,33,2];
-document.write(arr.slice(2,5))
-}                                                                                         
-     
+// function vans(){
+// //for print the array in click 
+// let arr = [ 2 ,3,1,44,33,2];
+// document.write(arr.slice(2,5))
+// }                                                                                         
 
 
-                 
-               
-                
-   
- 
+// // arr3=[ 2 ,3,1,44,33,2];
+// // arrow  fn 
+// let nn = () => {
+    // let arr3 = [2, 3, 1, 44, 33, 2];
 
+
+
+
+    // let annn = arr3.map((nn) => nn * 2); // Use `nn` from the callback parameter
+    // console.log(annn);
+
+
+// //for assending 
+//     let anss=arr3.sort((a,b)=>a-b)
+//     console.log(anss)
+
+
+
+    // //for desending 
+    // let ansss=arr3.sort((a,b)=>b-a)
+    // console.log(ansss)
+
+
+    
+// };
+// nn();
+
+
+
+let hello=(a,b)=>{
+   return a+b;
+}
+console.log(hello(7,8));
 
               
                                            
