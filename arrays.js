@@ -131,10 +131,10 @@ let arr3=[ 2 ,3,1,44,33,2];
 
 
 
-let hello=(a,b)=>{
-   return a+b;
-}
-console.log(hello(7,8));
+// let hello=(a,b)=>{
+//    return a+b;
+// }
+// console.log(hello(7,8));
 
               
                                            
