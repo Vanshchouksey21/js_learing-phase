@@ -63,3 +63,17 @@ function sixth(){
     }
     alert(sum);
 }
+
+
+
+//filter aar
+function seventh(){
+    let arr =[];
+    for(let i =0 ; i<7;++i){
+let ab=parseInt(prompt("enter the "+(i+1)+"no : "))
+arr.push(ab);
+    }
+    alert("Orignal arr is : "+ arr)
+    let flt = arr.filter(num => num % 2 === 0);
+    alert("filtered array is : "+flt);
+}
