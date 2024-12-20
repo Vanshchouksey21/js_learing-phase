@@ -16,3 +16,4 @@ std.mail="Vanshchouksey2175@mail.com"
 // delete std.name;
 console.log(std);
 std.wlm();
+// jsdbvcuj
