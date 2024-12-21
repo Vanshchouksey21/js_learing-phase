@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hw.css">
+    <title>DOM</title>
+</head>
+<body>
+    <div id="box"></div>
+    <img onclick="red()" src="/img/th.jpeg" alt="">
+    
+    <img onclick="blue()" src="/img/th (2).jpeg" alt="">
+    
+    <img onclick="green()" src="/img/th.jpeg" alt="">
+    
+    <button onclick="transparent()">transparent</button> 
+    <script>
+        let red=()=>{
+            let box=document.querySelector("#box");
+            box.style.backgroundImage="url('/img/th.jpeg')";
+            box.style.backgroundSize="cover";
+            box.style.backgroundRepeat="no-repeat";
+        }
+        let blue=()=>{
+            let box=document.querySelector("#box");
+            box.style.backgroundImage="url('/img/th (2).jpeg')";
+            box.style.backgroundSize="cover";
+            box.style.backgroundRepeat="no-repeat";
+        }
+        let green=()=>{
+            let box=document.querySelector("#box");
+            box.style.backgroundImage="url('/img/th.jpeg')";
+            box.style.backgroundSize="cover";
+            box.style.backgroundRepeat="no-repeat";
+        }
+        let transparent=()=>{
+            let box=document.querySelector("#box");
+            box.style.background="transparent";
+        }
+    </script>
+</body>
+</html>
