@@ -24,7 +24,7 @@ let c=rec=()=>{
         count=0;
         dgt.style.color="red";
         document.querySelector('#dgt').innerHTML=count;
-        alert("abhi theek karke dikhata hu");
+        alert("abhi theek karke deta hu");
 }
 else{
     dgt.style.color="red";
