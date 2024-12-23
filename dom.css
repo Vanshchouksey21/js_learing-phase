@@ -1,0 +1,28 @@
+*{
+    padding: 1%;
+    margin: 12px;
+}
+
+
+#box{
+    width: 500px;
+    height: 500px;
+    /* align-items: center; */
+    /* margin-left: 40%; */
+    background-color: transparent;
+    margin-bottom: 10px;
+    /* border: 0.1px solid black; ; */
+    box-shadow: black 0px 0px 10px;
+
+}
+#box1{
+    width: 500px;
+    height: 500px;
+    /* align-items: center; */
+    /* margin-left: 40%; */
+    background-color: transparent;
+    margin-bottom: 10px;
+    /* border: 0.1px solid black; ; */
+    box-shadow: black 0px 0px 10px;
+
+}

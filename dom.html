@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dom.css">
     <title>Document</title>
 </head>
 <body>
-    <h1 onclick="go()">next </h1>
+    <!-- <h1 onclick="go()">next </h1>
     <p id="vns">Hello world</p>
-    <h1 onclick="hhh()">prev</h1>
+    <h1 onclick="hhh()">prev</h1> -->
 
+<!-- onmouse -->
+
+<div id="box">
+    <button onmouseenter="redclr()"  onmouseleave="trnsclr()">red</button>
+    <button onmouseenter="grnclr()" onmouseleave="trnsclr()">green</button>
+    <button onmouseenter="blclr()" onmouseleave="trnsclr()">blue</button>
+    <!-- <button onmouseenter="trclr()" onmouseleave="trnsclr">transparent</button> -->
+</div>
+
+
+<div id="box1"></div>
+    <img onmouseenter="red()" onmouseleave="lv()"  src="/img/th.jpeg" alt="">
+    
+    <img onmouseenter="blue()" onmouseleave="lv()"  src="/img/th (2).jpeg" alt="">
+    
+    <img onmouseenter="green()" onmouseleave="lv()"  src="/img/th.jpeg" alt="">
+    
+    <!-- <button onmouseenter="transparent()">transparent</button>   -->
 
 
 
