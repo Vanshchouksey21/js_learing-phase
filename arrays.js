@@ -8,7 +8,8 @@
 // map - map performs all mathamatical operations,it is a hire order fn...
 // filter - its filters that 
 // for of /for each - returns the new string 
-// callback - it is a fn which passes in a hire order fn 
+// callback - which is paaseed in arrgument ("which is writtend in a paramtr")
+// higher odr fn-which takes a fn in paramtr
 // nan-not a number ;                            
 // array define 
 
@@ -139,4 +140,4 @@ let arr3=[ 2 ,3,1,44,33,2];
               
                                            
                                     
-                                    
+                               

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #foo{
+            display: flex;
+            justify-content: center;
+         
+          border-radius: 10px;
+          border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+   <div id="foo">
+    <form>
+        <p id="errname"></p>
+        Enter Name <input type="text"  id="name" placeholder="Enter name"><br><br>
+
+        <p id="errmail"></p>
+        Enter email <input type="text"  id="email" placeholder="Enter your Email"><br><br>
+
+        <p id="errno"></p>
+        Enter mobile no <input type="text"  id="mobile" placeholder="Enter your no "><br><br>
+
+        <p id="errpass"></p>
+        Enter password <input type="text"  id="pass" placeholder="Enter your pass"><br><br>
+
+        <p id="errconfirm"></p>
+        Confirm password <input type="text"  id="password" placeholder=" Confirm pass"><br><br>
+        <input onclick="return sub()" type="submit" value="login"><br>
+    </form>
+   </div>
+    <script src="/form.js"></script>
+</body>
+</html>
