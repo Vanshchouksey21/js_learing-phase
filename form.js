@@ -22,29 +22,44 @@ let sub =()=>{
         return false;
     }
     
-    if(num===""){
+    else if(num===""){
         errmail.innerHTML="enter your email";
         errmail.style.color="red";
         return false;
     }
+    else if (!(num.includes('@') && num.includes('.com')))
+    {
+        errmail.innerHTML="enter a valid email";
+        return false;
+    }
 
-    if(mno===""){
-        errno.innerHTML="enter your no ";
+    else if(isNaN(mno)){
+        errno.innerHTML="enter a valid no  ";
+        errno.style.color="red";
+        return false;
+    }
+    else if(mno.length !=10){
+        errno.innerHTML="please Enter 10 dgts";
         errno.style.color="red";
         return false;
     }
     
-    if(pass===""){
-        errpass.innerHTML="enter your pass";
+    else if(cpass!=pass){
+        errpass.innerHTML=" pass and confirm should be same";
         errpass.style.color="red";
         return false;
     }
-    if(cpass===""){
-        errconfirm.innerHTML="confirm your pass";
-        errconfirm.style.color="red";
-        return false;
-    }
-
+    // else if(cpass===""){
+    //     errconfirm.innerHTML="confirm your pass";
+    //     errconfirm.style.color="red";
+    //     return false;
+    // }
+else if(!(pass.match(/[1234567890]/)  && pass.match(/[!@#$%Z^&*()}][{}]?|\]/)
+ && pass.match(/[a-z]/)
+&& pass.macth(/[A-Z]/))){
+    errpass.innerHTML="enter a strong pass";
+    return false;
+}
 
 
 }
