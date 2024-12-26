@@ -54,12 +54,20 @@ let sub =()=>{
     //     errconfirm.style.color="red";
     //     return false;
     // }
-else if(!(pass.match(/[1234567890]/)  && pass.match(/[!@#$%Z^&*()}][{}]?|\]/)
- && pass.match(/[a-z]/)
-&& pass.macth(/[A-Z]/))){
+else if(!(pass.match(/[1234567890]/)  &&
+pass.match(/[!@#$%Z^&*()}][{}]?|\]/) &&
+pass.match(/[a-z]/)&&
+pass.macth(/[A-Z]/))){
     errpass.innerHTML="enter a strong pass";
+    errpass.style.color="red";
     return false;
 }
 
 
 }
+
+
+
+//focus()
+// error in placeholder
+//value emty
