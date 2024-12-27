@@ -19,17 +19,20 @@ let sub =()=>{
     if(name===""){
         errname.innerHTML="enter your name ";
         errname.style.color="red";
+        document.querySelector("name").value = "";
         return false;
     }
     
     else if(num===""){
         errmail.innerHTML="enter your email";
         errmail.style.color="red";
+       
         return false;
     }
     else if (!(num.includes('@') && num.includes('.com')))
     {
         errmail.innerHTML="enter a valid email";
+        document.querySelector("num").value = "";
         return false;
     }
 
@@ -47,6 +50,7 @@ let sub =()=>{
     else if(cpass!=pass){
         errpass.innerHTML=" pass and confirm should be same";
         errpass.style.color="red";
+        document.getElementById("pass").value = "";
         return false;
     }
     // else if(cpass===""){
@@ -60,6 +64,7 @@ pass.match(/[a-z]/)&&
 pass.macth(/[A-Z]/))){
     errpass.innerHTML="enter a strong pass";
     errpass.style.color="red";
+    document.getElementById("pass").value = "";
     return false;
 }
 
@@ -70,4 +75,4 @@ pass.macth(/[A-Z]/))){
 
 //focus()
 // error in placeholder
-//value emty
+//value epmty
