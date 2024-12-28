@@ -17,9 +17,10 @@ let sub =()=>{
 
 
     if(name===""){
-        errname.innerHTML="enter your name ";
+        errname.innerHTML="enter your name "
+        document.querySelector("#name").Placeholder="Name ur name ";
         errname.style.color="red";
-        document.querySelector("name").value = "";
+        // document.querySelector("name").value = "";
         return false;
     }
     
@@ -49,8 +50,11 @@ let sub =()=>{
     
     else if(cpass!=pass){
         errpass.innerHTML=" pass and confirm should be same";
+        document.querySelector("#password").value="";
+        document.querySelector("#password").focus
         errpass.style.color="red";
         document.getElementById("pass").value = "";
+        document.querySelector("#password").focus()
         return false;
     }
     // else if(cpass===""){
@@ -64,7 +68,7 @@ pass.match(/[a-z]/)&&
 pass.macth(/[A-Z]/))){
     errpass.innerHTML="enter a strong pass";
     errpass.style.color="red";
-    document.getElementById("pass").value = "";
+    // document.getElementById("pass").value = "";
     return false;
 }
 
