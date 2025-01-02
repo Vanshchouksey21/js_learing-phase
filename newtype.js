@@ -31,3 +31,4 @@ setInterval(()=>{
     display.innerHTML=isname?"vansh":"chouksey"
     isname= !isname
 },1000)
+// knknjol
