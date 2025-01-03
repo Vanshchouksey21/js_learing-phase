@@ -1,0 +1,87 @@
+<body>
+
+    <!-- input take form user of thire birth date -->
+    <label for="AgeInput">Enter Your Date Of Birth</label>
+    <input type="date" id="AgeInput">
+    <button onclick="Display()">Click</button>
+
+    <div class="mainDiv">
+        <p id="emptys"></p>
+        <h1>Your Age Calculated Is Here</h1>
+        <div id="ageDisplayContainer">
+            <div class="c1">
+                <label for="Year">Year</label>
+                <h1 id="AgeYear">2024</h1>
+            </div>
+            <div class="c2">
+                <label for="month">Month</label>
+                <h1 id="AgeMonth">07</h1>
+            </div>
+            <div class="c3">
+                <label for="Day">Day</label>
+                <h1 id="AgeDay">12</h1>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+
+    <script>
+        const Display = () => {
+
+            let userageYaer = document.querySelector("#AgeYear");
+            let userAgeMonth = document.querySelector("#AgeMonth");
+            let userAgeDay = document.querySelector("#AgeDay");
+            let userAge = document.querySelector("#AgeInput").value;
+
+            // Thise Is Current Date Which Is Running :
+            // let currentDates = new Date();
+            // let currentDate = currentDates.getDate();
+            // let currentday = currentDates.getDay();
+            // let currentYear = currentDates.getFullYear();
+
+
+            // This Given By The User :
+            let userDates = new Date(userAge);
+            let userDate = userDates.getDate();
+            let userDay = userDates.getDay();
+            let userYear = userDates.getFullYear();
+
+
+
+
+            let errors = document.querySelector("#emptys")
+            if (userAge === "") {
+                errors.innerHTML = "Plase Select Your Birth Age : ";
+                errors.style.background = "black";
+            }
+            else {
+                let storedYear = currentYear - userYear;
+                let storedDate = currentDate - userDate;
+                let storedDay = currentday - userDay;
+
+                if (storedYear < 0) {
+                    storedYear = -storedYear;
+                }
+                if (storedDate < 0) {
+                    storedDate = -storedDate;
+                }
+                if (storedDay < 0) {
+                    storedDay = -storedDay;
+                }
+
+                userageYaer.innerHTML = storedYear;
+                userAgeMonth.innerHTML = storedDate;
+                userAgeDay.innerHTML = storedDay;
+            }
+
+
+
+
+
+
+        }
+    </script>
+</body>
