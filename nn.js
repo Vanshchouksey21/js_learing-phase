@@ -8,3 +8,4 @@ var typed = new Typed('#typing', {
   });
 
   //slider.js
+  // git push
